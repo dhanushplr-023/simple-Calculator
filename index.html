@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background-circle"></div>
+
+<div class="calculator">
+
+    <div class="header">
+        <h2>Smart Calculator</h2>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+    <div class="display-container">
+        <div id="expression"></div>
+        <div id="display">0</div>
+    </div>
+
+    <div class="buttons">
+
+        <button class="clear">AC</button>
+        <button class="delete">DEL</button>
+        <button class="operator">%</button>
+        <button class="operator">÷</button>
+
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator">×</button>
+
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator">−</button>
+
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator">+</button>
+
+        <button>0</button>
+        <button>.</button>
+        <button id="copyBtn">📋</button>
+        <button class="equals">=</button>
+
+    </div>
+
+</div>
+
+<div class="history-panel">
+
+    <div class="history-top">
+        <h3>History</h3>
+        <button id="clearHistory">Clear</button>
+    </div>
+
+    <ul id="historyList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
